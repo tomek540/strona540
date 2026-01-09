@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tomek - Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo"><img src="logo.png" width="100px"></div>
+            <nav class="nav">
+                <a href="#home" class="nav-link">Strona Główna</a>
+                <a hreaf="#about" class="nav-link">O mnie</a>
+                <a hreaf="#contact" class="nav-link">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="arrow-down"><img src="arrow.png" width="100"></div>
+                <h1 class="hero-title">Cześć jestem <span class="highlight">Tomek!</span> Jestem <span class="highlight">programistą!</span></h1>
+            </div>
+            <div class="hero-emoji">
+                <div class="emoji-wrapper">
+                    <span class="emoji"><img src="obrazek.png" width="300px"></span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="section-title">Pracuję w <span class="highlight">Pythonie!</span></h2>
+            <p class="section-description">Robię różne rzeczy takie jak programy komputerowe lub gry.</p>
+            
+            <div class="code-examples">
+                <div class="code-snippet">
+                    <pre><code># Python
+import discord
+from discord import discord.ext
+
+intents = discord.Intents.default()
+bot = commands.Bot(command_prefix="/",
+ intents=intents)
+@bot.event
+async def on_ready():
+    print(f'Zalogowano jako {bot.user}')
+</code></pre>
+                </div>
+                <div class="code-snippet">
+                    <pre><code>&lt;body&gt;
+ &lt;div class="container"&gt;
+    &lt;h1&gt;Witaj!&lt;/h1&gt;
+    &lt;p&gt;To jest moja strona&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;/body&gt;</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="projects=section">
+        <div class="container">
+            <h2 class="section-title-left">Moje projekty:</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon discord-icon">💭</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Bot discord</h3>
+                        <p class="project-description">przydatny bot discord zrobiony w pythonie!</p>
+                        <button class="learn-more-btn">Zobacz więcej</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon calcurator-icon">🔢</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Kalkulator</h3>
+                        <p class="project-description">Kalkulator do matematycznych dzialan zrobiony w pythonie.</p>
+                        <button class="learn-more-btn">Zobacz więcej</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="languages-section">
+        <div class="container">
+            <h2 class="section-title-center">
+                Uczę sie też różnych innych <span class="highlight-purple">języków!</span>
+            </h2>
+            <div class="languages-grid">
+                <div class="languages-icon">HTML</div>
+                <div class="languages-icon">JAVA</div>
+                <div class="languages-icon">JS</div>
+            </div>
+            <div class="Central-symbol">
+                <div class="symbol-circle">Σ</div>
+            </div>
+        </div>
+    </section>
+    <a class="druga" href="druga.html">Druga</a>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2 class="contact-title">Pracuj z <span class="highlight">mną!</span></h2>
+                    <p class="contact-description">Wpisz w pola swoje dane, odpiszemy ci jak tylko bedziemy mogli!</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">🎥</a>
+                        <a href="#" class="social-icon">🔮</a>
+                        <a href="#" class="social-icon">📞</a>
+                        <a href="#" class="social-icon">📩</a>
+                        <a href="#" class="social-icon">⌨️</a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form">
+                        <input type="text" placeholder="Imię" class="form-input" required>
+                        <input type="email" placeholder="e-mail" class="form-input" required>
+                        <textarea placeholder="Twoja wiadomość" class="form-textarea" rows="5" required></textarea>
+                        <button type="submit" class="submit-btn">Wyślij</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-center">
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Pomoc</a>
+                        <a href="#" class="footer-link">Regulamin</a>
+                        <a href="#" class="footer-link">Kontakt</a>
+                    </div>
+                    <div class="footer-icons">
+                        <span class="footer-icon"></span>
+                        <span class="footer-icon"></span>
+                        <span class="footer-icon"></span>
+                        <span class="footer-icon"></span>
+                        <span class="footer-icon"></span>
+                    </div>
+                    <div class="copyright">© Copyright 2025. All right reserved</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
